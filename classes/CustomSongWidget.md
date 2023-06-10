@@ -13,7 +13,7 @@ undefined __thiscall CustomSongWidget::unk2(void* this, undefined4 p1, undefined
 
 void __thiscall CustomSongWidget::unk3(void* this, undefined4 p1) = base + 0x6a2c0;
 
-void unknown CustomSongWidget::unk4() = base + 0x69bd0;
+void __thiscall CustomSongWidget::unk4(CustomSongWidget* this) = base + 0x69bd0;
 
 void __thiscall CustomSongWidget::unk5(CustomSongWidget* this, LevelSettingsObject* param_2, bool param_3) = base + 0x6a3f0;
 
