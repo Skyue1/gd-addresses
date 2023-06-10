@@ -17,7 +17,7 @@ void unknown CustomSongWidget::unk4() = base + 0x69bd0;
 
 void __thiscall CustomSongWidget::unk5(CustomSongWidget* this, LevelSettingsObject* param_2, bool param_3) = base + 0x6a3f0;
 
-void __thiscall CustomSongWidget::onPlaySongButton(CusotmSongWidget* this) = base + 0x69970;
+void __thiscall CustomSongWidget::onPlaySongButton(CustomSongWidget* this) = base + 0x69970;
 
 void __thiscall CustomSongWidget::updateSongObject(CustomSongWidget* this, SongInfoObject* songInfo) = base + 0x69280;
 ```
