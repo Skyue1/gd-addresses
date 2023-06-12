@@ -3,7 +3,7 @@ This is the widget that appears at the bottom center of a LevelInfoLayer.
 Here are the known addresses:
 ```cpp
 
-bool __thiscall CustomSongWidget::~CustomSongWidget(CustomSongWidget* this, byte p0) = base + 0x683f0;
+void __thiscall CustomSongWidget::~CustomSongWidget(CustomSongWidget* this, byte p0) = base + 0x683f0;
 
 bool __thiscall CustomSongWidget::init(CustomSongWidget* this, SongInfoObject* songInfo, LevelSettingsObject* p1, bool p2, bool p3, bool p4, bool hasDefaultSong, bool hideBackground) = base + 0x685b0;
 
