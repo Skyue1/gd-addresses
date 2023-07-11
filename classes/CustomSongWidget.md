@@ -28,5 +28,5 @@ void __thiscall CustomSongWidget::updateSongInfo(CustomSongWidget* this, SongInf
 
 void __thiscall CustomSongWidget::updateProgressBar(int p1) = base + 0x69B40;
 
-void __thiscall CustomSongWidget::updateError(GJSongError p1) = base + 0x6A340;
+void __thiscall CustomSongWidget::updateError(GJSongError* p1) = base + 0x6A340;
 ```
